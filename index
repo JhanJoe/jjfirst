@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Page Structure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <!-- Banner Image -->
+        <img src="banner.jpg" alt="Banner Image" style="width:100%">
+    </div>
+
+    <div class="content">
+        <!-- Example of a section with title, text, and an image -->
+        <div class="section">
+            <h2>Title 1</h2>
+            <p>This is a paragraph of text. Here you can add your content.</p>
+            <img src="example-image.jpg" alt="Example Image" class="right-image">
+        </div>
+
+        <!-- Repeating sections of title and text -->
+        <div class="section">
+            <h2>Title 2</h2>
+            <p>This is another paragraph of text. Add your content here.</p>
+        </div>
+
+        <!-- Add more sections as needed -->
+        <!-- Ensure you have a total of 9 title-text groups as per your requirement -->
+
+    </div>
+</body>
+</html>
