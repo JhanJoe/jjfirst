@@ -10,7 +10,8 @@ body {
 }
 
 .content {
-    width: 100%; /* 或者根据需要设定为固定宽度 */
+    width: 80%; /* 或者根据需要设定为固定宽度 */
+    margin: 0 auto;
 }
 
 .section h2 {
