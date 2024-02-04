@@ -3,31 +3,28 @@ body {
 }
 
 .header img {
-    width: 50%; /* 图片宽度占满整个容器宽度 */
-    height: auto; /* 高度自动调整以保持图片比例 */
-    display: block; /* 图片作为块级元素显示，有助于实现下方的margin:auto生效 */
-    margin: auto; /* 图片在容器中居中显示 */
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: auto; 
 }
 
 .content {
-    width: 70%; /* 或者根据需要设定为固定宽度 */
-    display: block;
+    width: 70%;
     margin: 0 auto;
 }
 
 .section h2 {
-    background-color: lightblue; /* 标题背景色 */
-    width: 100%; /* 确保背景色填满整个标题容器宽度 */
-    padding: 5px 0; /* 为标题添加上下内填充 */
-    text-align: center; /* 标题文本居中显示 */
-    display: block;
-    margin: 0 auto; /* 确保标题在容器中居中 */
+    background-color: lightyellow; 
+    width: 100%; 
+    padding: 5px 0; 
+    text-align: center; 
+    margin: 0 auto; 
 }
 
 .section p {
- 　 width: 100%; /* 确保背景色填满整个标题容器宽度 */
-    padding: 5px 0; /* 为标题添加上下内填充 */
-    text-align: left; /* 标题文本置左显示 */
-    display: block;
-    margin: 0 auto; /* 确保在容器中居中 */
+ 　 width: 100%; 
+    padding: 5px 0; 
+    text-align: left; 
+    margin: 0 auto; 
 }
