@@ -9,21 +9,22 @@ body {
     margin: auto;
 }
 
-.title-container, .section {
+.content {
     width: 100%; /* 或者你希望的固定宽度，如 width: 600px; */
     margin: auto; /* 使容器居中 */
 }
 
 /* 标题的样式 */
-.title-container h2, .section h2 {
-    background-color: lightblue; /* 设置你喜欢的背景色 */
+section h2 {
+    background-color: lightyellow; /* 设置你喜欢的背景色 */
     width: 100%; /* 确保背景色填满整个容器宽度 */
     padding: 10px 0; /* 添加一些内填充使得背景色块看起来更好 */
     text-align: center; /* 如果你需要标题居中 */
+    margin: 0 auto; /* 如有需要，确保标题在容器中居中 */
 }
 
 /* 段落的样式 */
-.title-container p, .section p {
+.section p {
     /* 这里可以定义段落的样式，但不包含背景色 */
 }
 
