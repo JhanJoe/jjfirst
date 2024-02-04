@@ -20,7 +20,7 @@ body {
 }
 
 .section h3 {
-    background-color: lightyellow; 
+    background-image: linear-gradient(to right, lightblue, lightyellow); 
     width: 100%; 
     padding: 5px 0; 
     text-align: center; 
