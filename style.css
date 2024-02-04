@@ -23,5 +23,8 @@ body {
 }
 
 .section p {
-    /* 段落样式，可根据需要添加 */
+ 　 width: 80%; /* 确保背景色填满整个标题容器宽度 */
+    padding: 5px 0; /* 为标题添加上下内填充 */
+    text-align: center; /* 标题文本居中显示 */
+    margin: 0 auto; /* 确保标题在容器中居中 */
 }
