@@ -25,6 +25,6 @@ body {
 .section p {
  　 width: 100%; /* 确保背景色填满整个标题容器宽度 */
     padding: 5px 0; /* 为标题添加上下内填充 */
-    text-align: center; /* 标题文本居中显示 */
-    margin: 0 auto; /* 确保标题在容器中居中 */
+    text-align: left; /* 标题文本置左显示 */
+    margin: 0 auto; /* 确保在容器中居中 */
 }
