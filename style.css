@@ -3,15 +3,10 @@ body {
 }
 
 .header img {
-    width: 100%;
+    width: 50%;
     height: auto;
-}
-
-.banner-image {
-  width: 50%;
-  height: auto;
-　display: block;
-　margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .content {
