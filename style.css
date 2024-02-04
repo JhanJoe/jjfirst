@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto; /* Centers the content and leaves margin on the sides */
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.right-image {
+    float: right; /* Positions the image to the right of the text */
+    margin-left: 20px; /* Adds some space between the text and the image */
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Clear floats after the sections */
+.section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
