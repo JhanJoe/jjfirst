@@ -9,14 +9,22 @@ body {
     margin: auto;
 }
 
-.content {
-    width: 80%;
-    margin: 0 auto; /* Centers the content and leaves margin on the sides */
-    padding: 20px;
+.title-container, .section {
+    width: 100%; /* 或者你希望的固定宽度，如 width: 600px; */
+    margin: auto; /* 使容器居中 */
 }
 
-.section {
-    margin-bottom: 20px;
+/* 标题的样式 */
+.title-container h2, .section h2 {
+    background-color: lightblue; /* 设置你喜欢的背景色 */
+    width: 100%; /* 确保背景色填满整个容器宽度 */
+    padding: 10px 0; /* 添加一些内填充使得背景色块看起来更好 */
+    text-align: center; /* 如果你需要标题居中 */
+}
+
+/* 段落的样式 */
+.title-container p, .section p {
+    /* 这里可以定义段落的样式，但不包含背景色 */
 }
 
 .right-image {
