@@ -7,6 +7,13 @@ body {
     height: auto;
 }
 
+.banner-image {
+  width: auto;
+  height: 50%;
+　display: block;
+　margin: auto;
+}
+
 .content {
     width: 80%;
     margin: 0 auto; /* Centers the content and leaves margin on the sides */
