@@ -3,7 +3,7 @@ body {
 }
 
 .header img {
-    width: 100%; /* 图片宽度占满整个容器宽度 */
+    width: 50%; /* 图片宽度占满整个容器宽度 */
     height: auto; /* 高度自动调整以保持图片比例 */
     display: block; /* 图片作为块级元素显示，有助于实现下方的margin:auto生效 */
     margin: auto; /* 图片在容器中居中显示 */
